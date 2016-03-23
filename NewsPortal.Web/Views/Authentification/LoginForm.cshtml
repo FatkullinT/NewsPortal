@@ -1,0 +1,56 @@
+﻿@using NewsPortal.Web.Models
+@model LoginDataModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    @using (Html.BeginForm("LogIn", "Authentification"))
+    {
+        <div>
+                @Html.ValidationSummary(false)
+            <div class="editor-label">
+                @Html.LabelFor(model => model.UserName)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.UserName)
+                @Html.ValidationMessageFor(model => model.UserName)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(u => u.Password)
+            </div>
+            <div class="editor-field">
+                @Html.PasswordFor(u => u.Password)
+                @Html.ValidationMessageFor(u => u.Password)
+            </div>
+             <div class="editor-label">
+                @Html.LabelFor(u => u.RememberMe)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(u => u.RememberMe)
+            </div>
+            <input type="submit" value="Войти" />
+        </div>
+    }
+    @foreach (KeyValuePair<string, string> providerName in (Dictionary<string, string>)ViewData["ProviderNames"])
+    {
+        @Html.ActionLink(string.Format("Через {0}", providerName.Value), "OAuthLogin", new {ProviderName = providerName.Key})
+    }
+    <div>
+        @Html.ActionLink("На главную", "Index", "NewsFeed")
+    </div>
+</body>
+</html>
+
+
+

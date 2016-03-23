@@ -1,0 +1,29 @@
+﻿@using NewsPortal.Domain.Dto
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Scripts.Render("~/bundles/NewsFeed")
+@model bool
+<script type="text/javascript">
+    $(document).ready(NewsPortal.NewsFeed.OnLoad);
+</script>
+<div>
+    <div>
+        @Html.ValidationSummary(false)
+        @if (Model)
+        {
+            @Html.ActionLink("Создать", "Create")
+        }
+    </div>
+    <div id="NewsFeed" style="width: 900px; height: 100%; overflow-y: auto; position: fixed; margin: 0 300px">
+        <div>
+            @{
+                Html.RenderAction("NewsPage", new
+                {
+                    pageNumber = 1
+                });
+            }
+        </div>
+    </div>
+</div>

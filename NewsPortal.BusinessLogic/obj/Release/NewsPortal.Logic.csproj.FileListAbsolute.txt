@@ -1,0 +1,7 @@
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\bin\Release\NewsPortal.Logic.dll
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\bin\Release\NewsPortal.Logic.pdb
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\bin\Release\NewsPortal.Domain.dll
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\bin\Release\NewsPortal.Domain.pdb
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\obj\Release\NewsPortal.Logic.csprojResolveAssemblyReference.cache
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\obj\Release\NewsPortal.Logic.dll
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\obj\Release\NewsPortal.Logic.pdb

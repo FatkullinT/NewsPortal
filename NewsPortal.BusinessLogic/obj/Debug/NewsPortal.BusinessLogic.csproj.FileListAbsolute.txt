@@ -1,0 +1,5 @@
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\bin\Debug\NewsPortal.BusinessLogic.dll
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\bin\Debug\NewsPortal.BusinessLogic.pdb
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\obj\Debug\NewsPortal.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\obj\Debug\NewsPortal.BusinessLogic.dll
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic\obj\Debug\NewsPortal.BusinessLogic.pdb

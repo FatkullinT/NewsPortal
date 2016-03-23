@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Domain", "NewsPortal.Domain\NewsPortal.Domain.csproj", "{17AE5440-FA93-41BE-AEEC-44FE5840C861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Dal", "NewsPortal.DAL\NewsPortal.Dal.csproj", "{A56832B7-176D-4FC3-92B7-FA39B2642E80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Web", "NewsPortal.Web\NewsPortal.Web.csproj", "{95529338-B5DD-4F48-887D-D5138E419E78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Security", "NewsPortal.Security\NewsPortal.Security.csproj", "{E2DB53D9-D727-4CE8-BD15-0597B2929909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Logic", "NewsPortal.BusinessLogic\NewsPortal.Logic.csproj", "{4B76673A-971C-4BD5-B124-ED5067A3F3F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6F33EB8A-5132-4E46-9CA5-3E52EEC935DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Dal.Tests", "Tests\NewsPortal.Dal.Tests\NewsPortal.Dal.Tests.csproj", "{9BAF7BF0-DB3E-4832-AF3C-EF719C71F753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Security.Tests", "Tests\NewsPortal.Security.Tests\NewsPortal.Security.Tests.csproj", "{21F57FBA-6A40-4386-9145-4200CDAC65E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Logic.Tests", "Tests\NewsPortal.BusinessLogic.Tests\NewsPortal.Logic.Tests.csproj", "{16C19EBB-57BB-4209-A550-AD4978D89279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Logger", "NewsPortal.Logger\NewsPortal.Logger.csproj", "{404533EA-8CC9-459D-9D36-A4A159198941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.Logger.Tests", "Tests\NewsPortal.Logger.Tests\NewsPortal.Logger.Tests.csproj", "{3B5A8F64-AA73-4A53-9913-A0023FAFFA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPortal.TestDataGenerator", "Tests\NewsPortal.TestDataGenerator\NewsPortal.TestDataGenerator.csproj", "{4030E5A7-201E-43D0-BAF9-253FEE8C48F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17AE5440-FA93-41BE-AEEC-44FE5840C861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AE5440-FA93-41BE-AEEC-44FE5840C861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AE5440-FA93-41BE-AEEC-44FE5840C861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AE5440-FA93-41BE-AEEC-44FE5840C861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56832B7-176D-4FC3-92B7-FA39B2642E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56832B7-176D-4FC3-92B7-FA39B2642E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56832B7-176D-4FC3-92B7-FA39B2642E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56832B7-176D-4FC3-92B7-FA39B2642E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95529338-B5DD-4F48-887D-D5138E419E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95529338-B5DD-4F48-887D-D5138E419E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95529338-B5DD-4F48-887D-D5138E419E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95529338-B5DD-4F48-887D-D5138E419E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DB53D9-D727-4CE8-BD15-0597B2929909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DB53D9-D727-4CE8-BD15-0597B2929909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DB53D9-D727-4CE8-BD15-0597B2929909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DB53D9-D727-4CE8-BD15-0597B2929909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B76673A-971C-4BD5-B124-ED5067A3F3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B76673A-971C-4BD5-B124-ED5067A3F3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B76673A-971C-4BD5-B124-ED5067A3F3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B76673A-971C-4BD5-B124-ED5067A3F3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAF7BF0-DB3E-4832-AF3C-EF719C71F753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAF7BF0-DB3E-4832-AF3C-EF719C71F753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAF7BF0-DB3E-4832-AF3C-EF719C71F753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAF7BF0-DB3E-4832-AF3C-EF719C71F753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F57FBA-6A40-4386-9145-4200CDAC65E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F57FBA-6A40-4386-9145-4200CDAC65E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F57FBA-6A40-4386-9145-4200CDAC65E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F57FBA-6A40-4386-9145-4200CDAC65E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C19EBB-57BB-4209-A550-AD4978D89279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C19EBB-57BB-4209-A550-AD4978D89279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C19EBB-57BB-4209-A550-AD4978D89279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C19EBB-57BB-4209-A550-AD4978D89279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404533EA-8CC9-459D-9D36-A4A159198941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404533EA-8CC9-459D-9D36-A4A159198941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404533EA-8CC9-459D-9D36-A4A159198941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404533EA-8CC9-459D-9D36-A4A159198941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5A8F64-AA73-4A53-9913-A0023FAFFA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5A8F64-AA73-4A53-9913-A0023FAFFA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5A8F64-AA73-4A53-9913-A0023FAFFA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5A8F64-AA73-4A53-9913-A0023FAFFA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4030E5A7-201E-43D0-BAF9-253FEE8C48F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4030E5A7-201E-43D0-BAF9-253FEE8C48F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4030E5A7-201E-43D0-BAF9-253FEE8C48F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4030E5A7-201E-43D0-BAF9-253FEE8C48F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BAF7BF0-DB3E-4832-AF3C-EF719C71F753} = {6F33EB8A-5132-4E46-9CA5-3E52EEC935DD}
+		{21F57FBA-6A40-4386-9145-4200CDAC65E5} = {6F33EB8A-5132-4E46-9CA5-3E52EEC935DD}
+		{16C19EBB-57BB-4209-A550-AD4978D89279} = {6F33EB8A-5132-4E46-9CA5-3E52EEC935DD}
+		{3B5A8F64-AA73-4A53-9913-A0023FAFFA04} = {6F33EB8A-5132-4E46-9CA5-3E52EEC935DD}
+		{4030E5A7-201E-43D0-BAF9-253FEE8C48F4} = {6F33EB8A-5132-4E46-9CA5-3E52EEC935DD}
+	EndGlobalSection
+EndGlobal

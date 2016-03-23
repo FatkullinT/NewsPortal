@@ -1,0 +1,12 @@
+D:\Projects\NewsPortal\NewsPortal.DAL\bin\Release\NewsPortal.DAL.dll.config
+D:\Projects\NewsPortal\NewsPortal.DAL\bin\Release\NewsPortal.DAL.dll
+D:\Projects\NewsPortal\NewsPortal.DAL\bin\Release\NewsPortal.DAL.pdb
+D:\Projects\NewsPortal\NewsPortal.DAL\bin\Release\EntityFramework.dll
+D:\Projects\NewsPortal\NewsPortal.DAL\bin\Release\EntityFramework.SqlServer.dll
+D:\Projects\NewsPortal\NewsPortal.DAL\bin\Release\NewsPortal.Domain.dll
+D:\Projects\NewsPortal\NewsPortal.DAL\bin\Release\NewsPortal.Domain.pdb
+D:\Projects\NewsPortal\NewsPortal.DAL\bin\Release\EntityFramework.xml
+D:\Projects\NewsPortal\NewsPortal.DAL\bin\Release\EntityFramework.SqlServer.xml
+D:\Projects\NewsPortal\NewsPortal.DAL\obj\Release\NewsPortal.DAL.csprojResolveAssemblyReference.cache
+D:\Projects\NewsPortal\NewsPortal.DAL\obj\Release\NewsPortal.DAL.dll
+D:\Projects\NewsPortal\NewsPortal.DAL\obj\Release\NewsPortal.DAL.pdb

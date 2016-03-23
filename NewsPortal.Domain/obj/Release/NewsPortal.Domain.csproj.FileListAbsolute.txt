@@ -1,0 +1,5 @@
+d:\Projects\NewsPortal\NewsPortal.Domain\bin\Release\NewsPortal.Domain.dll
+d:\Projects\NewsPortal\NewsPortal.Domain\bin\Release\NewsPortal.Domain.pdb
+d:\Projects\NewsPortal\NewsPortal.Domain\obj\Release\NewsPortal.Domain.dll
+d:\Projects\NewsPortal\NewsPortal.Domain\obj\Release\NewsPortal.Domain.pdb
+d:\Projects\NewsPortal\NewsPortal.Domain\obj\Release\NewsPortal.Domain.csprojResolveAssemblyReference.cache

@@ -1,0 +1,50 @@
+﻿@model NewsPortal.Web.Models.UserParameters
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UpdateAccount</title>
+</head>
+<body>
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    @using (Html.BeginForm("UpdateAccount"))
+    {
+        @Html.ValidationSummary(true)
+    
+        <fieldset>
+            <legend>UpdateAccount</legend>
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Email)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.SendNews)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.SendNews)
+                @Html.ValidationMessageFor(model => model.SendNews)
+            </div>
+
+            <p>
+                <input type="submit" value="Сохранить" />
+            </p>
+        </fieldset>
+    }
+    <div>
+        @Html.ActionLink("На главную", "Index", "Home")
+    </div>
+</body>
+</html>

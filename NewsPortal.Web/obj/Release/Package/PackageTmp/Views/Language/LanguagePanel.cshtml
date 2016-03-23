@@ -1,0 +1,17 @@
+﻿@using NewsPortal.Web.Models
+@model List<LanguageLinkData>
+@foreach (LanguageLinkData languageLinkData in Model)
+{
+    if (languageLinkData.Selected)
+    {
+    <span>
+        @languageLinkData.DisplayName
+    </span>
+    }
+    else
+    {
+    <span>
+        @Html.ActionLink(languageLinkData.DisplayName, "SelectLanguage", new { language = languageLinkData.Language })
+    </span>
+    }
+}

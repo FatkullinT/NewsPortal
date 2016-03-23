@@ -1,0 +1,25 @@
+﻿@using NewsPortal.Web.Models
+@model NewsPortal.Web.Models.NewsPageModel
+
+@foreach (NewsTextModel text in Model.News)
+{
+    <div id="@text.NewsId">
+        <div>
+            @if (Model.IsAdministrator)
+            {
+                <span>@Html.ActionLink("Изменить", "Update", new {id = text.NewsId})</span>
+                <span>@Html.ActionLink("Удалить", "Delete", new {id = text.NewsId})</span>
+            }
+            @text.NewsDate.ToString("dd.MM.yyyy hh.mm")
+        </div>
+        <div>
+            @text.Text
+        </div>
+    </div>
+}
+@if (Model.MoreRecords)
+{
+    <div>
+        @Html.ActionLink("Далее", "NewsPage", new { pageNumber = Model.NextPageNumber + 1, language = Model.Language }, new {id = "nextpage"})
+    </div>
+}

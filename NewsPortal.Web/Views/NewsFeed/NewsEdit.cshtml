@@ -1,0 +1,47 @@
+﻿@using NewsPortal.Web.Models
+@model NewsUpdateModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("SaveNews", "NewsFeed"))
+{
+    @Html.ValidationSummary(false)
+    @Html.HiddenFor(news => news.NewsId)
+    @Html.HiddenFor(news => news.NewsDate)
+    @Html.HiddenFor(news => news.EnglishTextId)
+    @Html.HiddenFor(news => news.RussianTextId)
+    <div class="editor-label">
+        @Html.LabelFor(news => news.NewsDate)
+    </div>
+    <div class="editor-field">
+        @Model.NewsDate.ToString("dd.MM.yyyy hh.mm")
+    </div>
+    <div class="editor-label">
+        @Html.LabelFor(news => news.RussianText)
+    </div>
+    <div class="editor-field">
+        @Html.TextAreaFor(news => news.RussianText)
+    </div>
+    <div class="editor-label">
+        @Html.LabelFor(news => news.EnglishText)
+    </div>
+    <div class="editor-field">
+        @Html.TextAreaFor(news => news.EnglishText)
+    </div>
+    <div class="editor-label">
+        @Html.LabelFor(news => news.AllowAnonymous)
+    </div>
+    <div class="editor-field">
+        @Html.CheckBoxFor(news => news.AllowAnonymous)
+    </div>
+    <input type="submit" value="Сохранить"/>
+    <div>
+        @Html.ActionLink("На главную", "Index", "NewsFeed")
+    </div>
+}
+
+
+

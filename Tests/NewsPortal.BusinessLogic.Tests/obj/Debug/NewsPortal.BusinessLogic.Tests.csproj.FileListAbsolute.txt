@@ -1,0 +1,5 @@
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic.Tests\bin\Debug\NewsPortal.BusinessLogic.Tests.dll
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic.Tests\bin\Debug\NewsPortal.BusinessLogic.Tests.pdb
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic.Tests\obj\Debug\NewsPortal.BusinessLogic.Tests.csprojResolveAssemblyReference.cache
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic.Tests\obj\Debug\NewsPortal.BusinessLogic.Tests.dll
+D:\Projects\NewsPortal\NewsPortal.BusinessLogic.Tests\obj\Debug\NewsPortal.BusinessLogic.Tests.pdb

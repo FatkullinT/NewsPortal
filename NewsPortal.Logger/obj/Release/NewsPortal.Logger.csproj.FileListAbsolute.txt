@@ -1,0 +1,9 @@
+D:\Projects\NewsPortal\NewsPortal.Logger\bin\Release\NewsPortal.Logger.dll
+D:\Projects\NewsPortal\NewsPortal.Logger\bin\Release\NewsPortal.Logger.pdb
+D:\Projects\NewsPortal\NewsPortal.Logger\bin\Release\log4net.dll
+D:\Projects\NewsPortal\NewsPortal.Logger\bin\Release\NewsPortal.Domain.dll
+D:\Projects\NewsPortal\NewsPortal.Logger\bin\Release\NewsPortal.Domain.pdb
+D:\Projects\NewsPortal\NewsPortal.Logger\bin\Release\log4net.xml
+D:\Projects\NewsPortal\NewsPortal.Logger\obj\Release\NewsPortal.Logger.csprojResolveAssemblyReference.cache
+D:\Projects\NewsPortal\NewsPortal.Logger\obj\Release\NewsPortal.Logger.dll
+D:\Projects\NewsPortal\NewsPortal.Logger\obj\Release\NewsPortal.Logger.pdb

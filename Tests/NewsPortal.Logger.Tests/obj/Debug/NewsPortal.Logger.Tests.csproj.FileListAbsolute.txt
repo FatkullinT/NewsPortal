@@ -1,0 +1,14 @@
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\NewsPortal.Logger.Tests.dll.config
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\NewsPortal.Logger.Tests.dll
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\NewsPortal.Logger.Tests.pdb
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\NewsPortal.Domain.dll
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\NewsPortal.Logger.dll
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\nunit.framework.dll
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\log4net.dll
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\NewsPortal.Domain.pdb
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\NewsPortal.Logger.pdb
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\nunit.framework.xml
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\bin\Debug\log4net.xml
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\obj\Debug\NewsPortal.Logger.Tests.csprojResolveAssemblyReference.cache
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\obj\Debug\NewsPortal.Logger.Tests.dll
+D:\Projects\NewsPortal\NewsPortal.Logger.Tests\obj\Debug\NewsPortal.Logger.Tests.pdb

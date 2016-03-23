@@ -1,0 +1,18 @@
+﻿@model string
+<div>
+    @if (Model != null)
+    {
+        <div>
+            Здравствуйте, @Model
+            @Html.ActionLink("Настройки", "UpdateAccount", "Account")
+        </div>
+        @Html.ActionLink("Выйти", "LogOut", "Authentification")
+    }
+    else
+    {
+        @Html.ActionLink("Войти", "LogIn", "Authentification")
+    }
+</div>
+
+
+

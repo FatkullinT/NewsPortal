@@ -1,0 +1,12 @@
+D:\Projects\NewsPortal\NewsPortal.DataProvider\bin\Debug\NewsPortal.DataProvider.dll.config
+D:\Projects\NewsPortal\NewsPortal.DataProvider\bin\Debug\NewsPortal.DataProvider.dll
+D:\Projects\NewsPortal\NewsPortal.DataProvider\bin\Debug\NewsPortal.DataProvider.pdb
+D:\Projects\NewsPortal\NewsPortal.DataProvider\bin\Debug\EntityFramework.dll
+D:\Projects\NewsPortal\NewsPortal.DataProvider\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\NewsPortal\NewsPortal.DataProvider\bin\Debug\NewsPortal.Domain.dll
+D:\Projects\NewsPortal\NewsPortal.DataProvider\bin\Debug\NewsPortal.Domain.pdb
+D:\Projects\NewsPortal\NewsPortal.DataProvider\bin\Debug\EntityFramework.xml
+D:\Projects\NewsPortal\NewsPortal.DataProvider\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\NewsPortal\NewsPortal.DataProvider\obj\Debug\NewsPortal.DataProvider.csprojResolveAssemblyReference.cache
+D:\Projects\NewsPortal\NewsPortal.DataProvider\obj\Debug\NewsPortal.DataProvider.dll
+D:\Projects\NewsPortal\NewsPortal.DataProvider\obj\Debug\NewsPortal.DataProvider.pdb

@@ -1,0 +1,10 @@
+D:\Projects\NewsPortal\NewsPortal.Security\bin\Release\NewsPortal.Security.dll
+D:\Projects\NewsPortal\NewsPortal.Security\bin\Release\NewsPortal.Security.pdb
+D:\Projects\NewsPortal\NewsPortal.Security\bin\Release\NewsPortal.Domain.dll
+D:\Projects\NewsPortal\NewsPortal.Security\bin\Release\NewsPortal.Domain.pdb
+D:\Projects\NewsPortal\NewsPortal.Security\obj\Release\NewsPortal.Security.csprojResolveAssemblyReference.cache
+D:\Projects\NewsPortal\NewsPortal.Security\obj\Release\NewsPortal.Security.dll
+D:\Projects\NewsPortal\NewsPortal.Security\obj\Release\NewsPortal.Security.pdb
+D:\Projects\NewsPortal\NewsPortal.Security\bin\Release\Newtonsoft.Json.dll
+D:\Projects\NewsPortal\NewsPortal.Security\bin\Release\Newtonsoft.Json.xml
+D:\Projects\NewsPortal\NewsPortal.Security\bin\Release\NewsPortal.Security.dll.config
